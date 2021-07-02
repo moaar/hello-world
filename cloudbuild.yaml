@@ -1,9 +1,9 @@
-- nombre: 'gcr.io/cloud-builders/gcloud' 
+-nombre: 'gcr.io/cloud-builders/gcloud' 
 args: 
-- funciones 
-- despliegue 
-- - tiempo de ejecución = nodejs12 
-- - trigger-http 
-- - source =. / # Archivos fuente de función 
-- - entry-point = helloGET # Entrada de función point 
-- helloGET # Nombre de la función 
+-funciones 
+-despliegue 
+--tiempo de ejecución = nodejs12 
+--trigger-http 
+--source =. / # Archivos fuente de función 
+--entry-point = helloGET # Entrada de función point 
+-helloGET # Nombre de la función 
