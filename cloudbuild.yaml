@@ -8,5 +8,6 @@ steps:
   dir: 'function/dir/from/repo/root'
 - name: 'gcr.io/cloud-builders/gcloud'
   args: ['functions', 'deploy', '[helloGET]', '[--trigger-http]', '--runtime', '[nodejs12]', '[helloGET]']
-  dir: datyra/hello-world/helloworld
+  dir: moaar/hello-world
+  
 # [END functions_ci_cd_cloud_build]
