@@ -1,9 +1,9 @@
--nombre: 'gcr.io/cloud-builders/gcloud' 
-args: 
--funciones 
--despliegue 
---tiempo de ejecución = nodejs12 
---trigger-http 
---source =. / # Archivos fuente de función 
---entry-point = helloGET # Entrada de función point 
--helloGET # Nombre de la función 
+-name: 'gcr.io/cloud-builders/gcloud'
+ args:
+ —functions
+ —deploy=helloGET
+ ——runtime=nodejs8
+ ——trigger-http
+ ——source=./ # Function source files
+ ——entry-point=helloGET # Function entry point
+ —helloGET # Function name
